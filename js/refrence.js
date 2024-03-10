@@ -29,7 +29,9 @@ console.log(people)
 
 //eg
 
-let numbers = [1,2,2,3,4,5,56,6,6,67,7,];
+let numbers = [1,2,3,4,5,6,7];
+
+//numbers.length
 
 console.log(numbers);
 console.log(typeof numbers);

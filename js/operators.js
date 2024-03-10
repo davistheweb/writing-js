@@ -101,3 +101,46 @@ let expon = 4;
 expon **= 2;
 
 console.log(expon)
+
+
+// Increment and Decrement Operator 
+
+// The increment and decrement operators 
+//are used to increase or decrease the value of a variable by 1.
+
+// THE INcrement operators is ++
+// the decrement operator is --
+
+// they can be used in two ways, which is Prefix and Postfix.
+
+let incre = 20
+console.log(incre);
+console.log(++incre);
+console.log(incre);
+
+let decre = 20;
+console.log(decre);
+console.log(--decre);
+console.log(decre);
+
+
+// Postfix increment and decrement operators
+
+console.log("Postfix for increment")
+
+let post = 8
+
+console.log(post++)
+console.log(++post)
+console.log(post)
+
+
+console.log("Postfix for decrement")
+
+let postd = 5
+
+console.log(postd--)
+console.log(postd--)
+
+// Comparism operator 
+
