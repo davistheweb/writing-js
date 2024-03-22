@@ -144,3 +144,10 @@ console.log(postd--)
 
 // Comparism operator 
 
+console.log("fix")
+
+function addNumbers(Num1, Num2) {
+    return Num1 + Num2
+}
+
+console.log(addNumbers(1,9))
