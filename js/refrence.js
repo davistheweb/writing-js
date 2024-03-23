@@ -72,4 +72,10 @@ console.log(x);
 x = false;
 
 console.log(typeof x);
-console.log(x);
+console.log(x)
+
+function hello() {
+    const me = "josh"
+}
+/* console.log(me) */
+hello()
