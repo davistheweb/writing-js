@@ -52,3 +52,14 @@ console.log(z > 0 || f < 0)
 console.log( z < 0 || f >0)
 console.log(z < 0 || f < 0)
 console.log(z < 0 || f == 0 )
+
+// Logical NOT (!)
+
+// This converts opertors to boolean and
+//returns flipped value
+
+let yes = true
+let no = false
+
+console.log(!yes);
+console.log(!no)
