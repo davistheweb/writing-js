@@ -181,6 +181,12 @@ for (i = 1; i <= 10; i++) {
     console.log("hello")
 }
 
-for(x = 1; x <=15; x++) {
+for(x = 20; x >=15; x--) {
     console.log(x)
+}
+
+let coding = ["Js", "Python" , "C++"]
+
+for (let i = 0; i < coding.length; i++) {
+    console.log(coding[i])
 }
