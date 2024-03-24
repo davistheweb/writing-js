@@ -66,33 +66,33 @@ document.write("<h1>Month is : " + month, "</h1>")
 
  day = () => {
 
-    let day = 5;
+    let day = 6;
     
-    if (day === 1) {
+    if (day === 1 || day === "1") {
           day = "Sunday"
     }
 
-    else if (day === 2) {
+    else if (day === 2 || day === "2") {
         day = "Monday"
     }
 
-    else if (day === 3) {
+    else if (day === 3 || day === "3") {
         day = "Tuesday"
     }
 
-    else if (day === 4) {
+    else if (day === 4 || day === "4") {
         day = "Wendesday"
     }
 
-    else if (day === 5) {
+    else if (day === 5 || day === "5") {
         day = "Thursday"
     }
 
-    else if (day === 6) {
+    else if (day === 6 || day === "6") {
         day = "Friday"
     }
 
-    else if (day === 7) {
+    else if (day === 7 || day === "7") {
         day = "Saturday"
     }
 
