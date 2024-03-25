@@ -181,12 +181,25 @@ for (i = 1; i <= 10; i++) {
     console.log("hello")
 }
 
-for(x = 20; x >=15; x--) {
+for(x = 20; x >=1; x--) {
     console.log(x)
+}
+for(i = 20; i <=1; i++) {
+    console.log(i)
 }
 
 let coding = ["Js", "Python" , "C++"]
 
 for (let i = 0; i < coding.length; i++) {
     console.log(coding[i])
+}
+
+// Creation of loop inside a loop
+
+for(let i = 1; 1 <=5; i++) {
+    console.log(i);
+
+    for(let j = 1; j <= 3; j++) {
+        console.log("innerLoop" + j)
+    }
 }

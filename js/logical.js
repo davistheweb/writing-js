@@ -47,11 +47,11 @@ let z = 5
 let f = 6
 
 
-console.log(z > 0 || f > 0)
-console.log(z > 0 || f < 0)
-console.log( z < 0 || f >0)
-console.log(z < 0 || f < 0)
-console.log(z < 0 || f == 0 )
+console.log(z > 0 || f > 0)//true
+console.log(z > 0 || f < 0)//True
+console.log( z < 0 || f >0) //true
+console.log(z < 0 || f < 0)//false
+console.log(z < 0 || f == 0 )//false
 
 // Logical NOT (!)
 
